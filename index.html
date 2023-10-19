@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    padding: {
+                        DEFAULT: '1rem',
+                        sm: '2rem',
+                        lg: '4rem',
+                        xl: '8rem',
+                    }
+                },
+                extend: {
+                    backgroundImage: {
+                        kahve: "url('img/kahve.jpg')",
+                    },
+                    colors: {
+                        clifford: '#da373d',
+                        yunus: '#bf0f0f',
+
+
+
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<!-- py-6 px-6 -->
+
+<body class=" container mx-auto py-10" style="background-color: #262626; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ">
+
+    <div class=" p-2 rounded-md" style="background-color: #000000;">
+
+        <div class="grid grid-cols-6 space-x-2">
+
+            <div class=" rounded-md " style="background-color: #1A1A1A;">
+                <div class="inline-block ml-2 -mr-1">
+                    <img class="w-6 h-6 rounded-md  " src="/img/insan.jpeg">
+                </div>
+                <div class="-space-y-2 p-3 text-sm inline-block " style="background-color: #1A1A1A; color: #656565;">
+                    <h1>Konstantin</h1>
+                    <h1>Konstantinov</h1>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="col-span-4 grid  rounded-md " style="background-color: #1A1A1A; color: #656565;">
+                <div class="grid grid-cols-3 place-content-center ">
+                    <div class="grid justify-items-start ml-2 mt-1">
+                        <iconify-icon icon="simple-line-icons:arrow-right" style="color: #656565;" width="17" height="17" flip="horizontal"></iconify-icon>
+                    </div>
+                    <div class=" grid justify-items-center">Editing "Oppenheimer"</div>
+                    <div class=" grid justify-items-end mr-2 mt-1">
+                        <iconify-icon icon="mdi:arrow-expand" style="color: #656565;" width="20" height="20">
+                        </iconify-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" grid place-content-center rounded-md  text-white" style="background-color: #FF6634;">
+                <button>Save</button>
+
+
+            </div>
+
+        </div>
+
+        <div class="grid space-x-2 grid-cols-6 grid-rows-2 py-2 ">
+            <div class="rounded-md" style="background-color: #1A1A1A;">
+                <div class="ml-2 p-2" style="color: #656565;">
+                    <div class="">
+                        <iconify-icon class=" -ml-1 mr-2" icon="jam:computer-alt-f" width="14" height="14">
+                        </iconify-icon>
+                        Media library
+                    </div>
+                </div>
+
+                <div class="border-t" style="border-color:#0a0808fb;">
+                    <div class="  ml-2 mt-1" style="color: #656565;">
+                        <iconify-icon class="-mb-1 mr-2" icon="ic:twotone-keyboard-double-arrow-left" style="color: #FF6634;" width="20" height="20" flip="horizontal"></iconify-icon>
+                        Content
+                    </div>
+                    <div>
+                        <ul class="grid place-content-center my-5 space-y-3" style="color: #656565;">
+                            <li>Home</li>
+                            <div class="-ml-4 text-slate-300">
+                                <iconify-icon class="-ml-1 mr-1" icon="tabler:check" style="color: white;" width="13" height="13"></iconify-icon>
+                                Movies
+                            </div>
+
+                            <li>Series</li>
+                            <li>TV channels</li>
+                            <li>TV Programs</li>
+                            <li>Episodes</li>
+                            <li>Collections</li>
+                            <li>Promo</li>
+                        </ul>
+
+                        <div class="border-t" style="border-color:#0a0808fb; color: #656565;">
+                            <div class="p-3">
+                                <iconify-icon class=" ml-2 mr-1" icon="solar:user-bold" style="color: #656565;" width="15" height="15"></iconify-icon>
+                                Members
+                            </div>
+
+
+                        </div>
+                        <div class="border-t" style="border-color:#0a0808fb; color: #656565;">
+                            <div class="p-3">
+                                <iconify-icon class="ml-2 mr-1" icon="tabler:flag-filled" style="color: #656565;" width="15" height="15"></iconify-icon>
+                                Help
+                            </div>
+
+
+                        </div>
+                        <div class="border-t" style="border-color:#0a0808fb; color: #656565;">
+                            <div class="p-3">
+                                <iconify-icon class="ml-2 mr-1" icon="octicon:report-16" style="color: #656565;" width="15" height="15"></iconify-icon>
+                                Reports
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="grid grid-cols-1 col-span-4 rounded-md" style="background-color: #1A1A1A;">
+
+                <div class="border-b " style="border-color: #0a0808fb;">
+
+                    <div class="text-white ml-5 p-2">
+                        <h1>General</h1>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2">
+
+                    <div class="border-r" style="border-color:#0a0808fb; color: #656565; ">
+                        <div class=" text-white p-2 ml-5 ">
+
+                            <h1>Title</h1>
+                            <h1>Oppenheimer</h1>
+
+
+                        </div>
+
+
+
+                        <div class="border-t" style="border-color:#0a0808fb; color: #656565; background-color:#423d3dab ; ">
+                            <div class=" text-white p-2 ml-5">
+                                <h1>Translations </h1>
+                                <h1>Oppenheimer</h1>
+                            </div>
+                        </div>
+
+                        <div class="border-t " style="border-color:#0a0808fb; color: #656565; ">
+
+                            <div class=" p-2 ml-5   ">
+                                <h1 class="text-white">Stug</h1>
+                                <p style="color: #656565;">oppengeymer</p>
+
+                            </div>
+                            <div class="border-t " style="border-color:#0a0808fb; color: #656565; ">
+
+                                <div class="p-4 ml-4 text-justify">
+                                    <h1 class="text-white">Description</h1>
+                                    <p style="color: #656565; ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ut facere aliquid porro rem sunt ad cum repellat, deserunt omnis, eos sed, nam nulla quaerat necessitatibus vero dolorum dolore nobis! Lorem ipsum dolor
+                                        sit amet consectetur adipisicing elit. Debitis optio, amet quidem facilis nesciunt fuga tempore corporis placeat laboriosam veritatis nostrum nisi incidunt ea at, recusandae vel minus dicta! Fugit? </p>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid p-2 place-content-center  ">
+                        <h1 class="text-white p-2 ">Poster</h1>
+                        <img class="rounded-md" src="/img/Oppenheimer-kapak.jpg " alt=" ">
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="rounded-md" style=" background-color:#1A1A1A;">
+
+                <div>
+                    <div class="border-b p-3" style="border-color:#0a0808fb; color: white;">
+                        General
+                    </div>
+                    <div class="border-b p-3" style="border-color:#0a0808fb; color: #656565;">
+                        <div>
+                            Idetifiers
+                            <iconify-icon class="grid place-content-end -mt-5" icon="tabler:point-filled" style="color: #a94a2a;"></iconify-icon>
+                        </div>
+
+                    </div>
+                    <div class="border-b p-3" style="border-color:#0a0808fb; color: #656565;">
+                        About movie
+                    </div>
+                    <div class="border-b p-3" style="border-color:#0a0808fb; color: #656565;">
+                        <div>
+                            Licenses
+                            <iconify-icon class="grid place-content-end -mt-5" icon="tabler:point-filled" style="color: #a94a2a;"></iconify-icon>
+                        </div>
+                    </div>
+                    <div class="border-b p-3" style="border-color:#0a0808fb; color: #656565;">
+                        Sources
+                    </div>
+                    <div class="border-b p-3" style="border-color:#0a0808fb; color: #656565;">
+                        Images
+                    </div>
+                    <div class="border-b p-3" style="border-color:#0a0808fb; color: #656565;">
+                        <div>
+                            Episodes
+                            <iconify-icon class="grid place-content-end -mt-5" icon="tabler:point-filled" style="color: #a94a2a;"></iconify-icon>
+                        </div>
+                    </div>
+                    <div class="border-b p-3" style="border-color:#0a0808fb; color: #656565;">
+                        Partners
+                    </div>
+                    <div>
+
+                        <div class="border-b p-3" style="border-color:#0a0808fb; color: #656565;">
+                            Broadcast
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="border-b p-3" style="border-color:#0a0808fb; color: #656565;">
+                            Misc
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class=" p-3" style="border-color:#0a0808fb; color: #656565;">
+                            Play
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class=" my-2 grid grid-cols-1 col-span-4 col-start-2 ">
+
+                <div>
+
+                    <div class="rounded-lg " style="background-color: #1A1A1A; ">
+                        <div class="text-white p-4 ">
+                            <p>
+                                Idetifiers
+                                <iconify-icon class="grid place-content-end -mt-5 " icon="subway:round-arrow-1" style="color: #656565; " width="20 " height="20 "></iconify-icon>
+                            </p>
+                        </div>
+                        <div class="grid grid-cols-2 ">
+                            <div class="border-t border-r " style="border-color: #0a0808fb; ">
+                                <div class="p-4 ">
+                                    <h1 class="text-white ">IMDB/8.6</h1>
+                                    <h1 style="color: #656565; ">tt15398776</h1>
+
+                                    <p class="grid place-content-end ">
+                                        <iconify-icon icon="ph:arrow-square-in-bold" style="color: #656565; " width="20 " height="20 " flip="horizontal,vertical "></iconify-icon>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div>
+                                <div class="border-t " style="border-color: #0a0808fb; ">
+                                    <div class="p-4 ">
+                                        <h1 class="text-white ">Kinopoisk/8.3</h1>
+                                        <h1 style="color: #656565; ">4664634</h1>
+                                        <p class="grid place-content-end ">
+                                            <iconify-icon icon="ph:arrow-square-in-bold" style="color: #656565; " width="20 " height="20 " flip="horizontal,vertical "></iconify-icon>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="rounded-lg my-2 text-white " style="border-color:#0a0808fb; background-color: #1A1A1A; ">
+                        <div class="rounded-lg " style="background-color: #1A1A1A; ">
+                            <div class="grid grid-cols-2 p-3 ">
+                                <div class="text-white ">
+                                    <h1>About the movie</h1>
+                                </div>
+                                <div class="grid place-content-end ">
+                                    <iconify-icon icon="ic:baseline-plus" style="color: #656565; " width="25 " height="25 " flip="horizontal,vertical "></iconify-icon>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="border-t " style="border-color: #0a0808fb; ">
+                                <div class="grid grid-cols-3 ">
+                                    <div class="border-r " style="border-color: #0a0808fb; ">
+                                        <div class="p-4 ">
+
+                                            <h1 class="text-white ">Year</h1>
+                                            <h1 style="color: #656565; ">2023</h1>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="border-r " style="border-color: #0a0808fb; ">
+                                        <div class="p-4 ">
+                                            <h1 class="text-white " ">Rate</h1>
+                            <h1 style=" color: #656565; ">17+</h1>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class=" p-4 ">
+                            <h1 class=" text-white " ">Duration</h1>
+                                            <h1 style="color: #656565; ">180 min/03:00</h1>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src=" https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js "></script>
+
+</body>
+
+</html>
